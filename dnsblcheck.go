@@ -41,6 +41,7 @@ import (
 
 var (
 	reverse_ip string
+	isBadIp    bool = false
 )
 
 func check(dnsbl string, quit chan int) {
@@ -50,8 +51,8 @@ func check(dnsbl string, quit chan int) {
 	if err == nil {
 		if ips[0].IsLoopback() {
 			text, _ := net.LookupTXT(hostname)
-			fmt.Println(text)
-			os.Exit(1)
+			fmt.Printf("From server %s got response: %s", dnsbl, text)
+			isBadIp = true
 		}
 	}
 	quit <- 1
@@ -97,5 +98,7 @@ func main() {
 	}
 	for j := 0; j < coroutines; _, j = <-quit, j+1 {
 	}
-	fmt.Println("Not listed")
+	if isBadIp == false {
+		fmt.Println("Not listed")
+	}
 }

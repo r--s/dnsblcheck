@@ -1,10 +1,10 @@
 b.barracudacentral.org
-blackholes.five-ten-sg.com
-blacklist.woody.ch
 bl.deadbeef.com
 bl.emailbasura.org
 bl.spamcannibal.org
 bl.spamcop.net
+blackholes.five-ten-sg.com
+blacklist.woody.ch
 cbl.abuseat.org
 cdl.anti-spam.org.cn
 combined.abuse.ch
@@ -15,7 +15,6 @@ dialups.mail-abuse.org
 dnsbl-1.uceprotect.net
 dnsbl-2.uceprotect.net
 dnsbl-3.uceprotect.net
-dnsbl.ahbl.org
 dnsbl.cyberlogic.net
 dnsbl.inps.de
 dnsbl.njabl.org
@@ -31,7 +30,6 @@ fl.chickenboner.biz
 http.dnsbl.sorbs.net
 images.rbl.msrbl.net
 ips.backscatterer.org
-ircbl.ahbl.org
 ix.dnsbl.manitu.net
 list.dnswl.org
 misc.dnsbl.sorbs.net
@@ -62,19 +60,18 @@ relays.nether.net
 residential.block.transip.nl
 ricn.dnsbl.net.au
 rmst.dnsbl.net.au
-sbl.spamhaus.org
 sbl-xbl.spamhaus.org
+sbl.spamhaus.org
 short.rbl.jp
 smtp.dnsbl.sorbs.net
 socks.dnsbl.sorbs.net
 spam.abuse.ch
 spam.dnsbl.sorbs.net
-spamlist.or.kr
-spamrbl.imp.ch
 spam.rbl.msrbl.net
 spam.spamrats.com
+spamlist.or.kr
+spamrbl.imp.ch
 t3direct.dnsbl.net.au
-tor.ahbl.org
 tor.dnsbl.sectoor.de
 torserver.tor.dnsbl.sectoor.de
 ubl.lashback.com
@@ -89,5 +86,3 @@ wormrbl.imp.ch
 xbl.spamhaus.org
 zen.spamhaus.org
 zombie.dnsbl.sorbs.net
-
-
